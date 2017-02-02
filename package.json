@@ -4,7 +4,7 @@
   "description": "A developer story",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "live-server": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/debatanu-thakur/home-page/issues"
   },
-  "homepage": "https://github.com/debatanu-thakur/home-page#readme"
+  "homepage": "https://github.com/debatanu-thakur/home-page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "material-components-web": "^0.3.0"
+  }
 }
